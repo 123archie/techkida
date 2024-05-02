@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    background-image: url(img/background_index.jpg);
+}
+
+nav{
+    display: flex;
+    background-image: linear-gradient(black, rgb(70, 70, 70));
+    height: 140px; 
+    align-items: center;
+    justify-content: end;
+}
+.btn{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    float: right;
+    margin-right: 5%;
+}
+
+#loginbtn{
+    background-color: red;
+    color: white;
+    font-size: medium;
+    height: 40px;
+    border-radius: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    width: 70px;
+}
+#DSAbtn{
+    height:140px;
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size:larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor:pointer;
+}
+#android{
+    text-decoration: none;
+    height:140px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size:larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor:pointer;
+}
+#web{
+    text-decoration: none;
+    height:140px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size:larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor:pointer;
+}
