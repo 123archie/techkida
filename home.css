@@ -1,11 +1,13 @@
 body{
     margin: 0px;
-    background-image: url(img/background_index.jpg);
+    background-image: url("img/background_index.jpg");
+    background-color: rgba(0, 0, 0, 0.81);
+    background-blend-mode: multiply;
 }
 
 nav{
     display: flex;
-    background-image: linear-gradient(black, rgb(70, 70, 70));
+    background-image: linear-gradient(black, rgb(31, 31, 31));
     height: 140px; 
     align-items: center;
     justify-content: end;
@@ -60,3 +62,36 @@ nav{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor:pointer;
 }
+.popup{
+    width: 25%;
+    height:80%;
+    background-image: linear-gradient(black, rgb(71, 71, 71));
+    border: 0.01px solid white;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    top: 15%;;
+    left: 37%;
+}.popup #head1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: x-large;
+    margin-top: 20%;
+}.popup #head2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    font-size: xxx-large;
+    margin-top: 7%;
+}.popup #google{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
