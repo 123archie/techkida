@@ -84,6 +84,7 @@ nav{
     margin-top: 7%;
 }.popup #google{
     display: flex;
+    height: 10%;
     width: 90%;
     margin-left: 5%;
     background: none;
@@ -93,5 +94,16 @@ nav{
     cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
+    align-items: center;
+    }
+#google_text{
+    -ms-flex: 1;
+    flex: 1;
+}#google_img{
+    margin-left: 1%;
+    float: left;
 }
-
+.border-gray-700{
+    opacity: 1;
+    background-color: white;
+}
